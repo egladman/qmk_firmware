@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_FN1] = LAYOUT_standard(
       KC_CAPS, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_MPRV, KC_MPLY, KC_MNXT, KC_UP,   KC_BSLS, XXXXXXX,\
       _______, KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT,          _______, \
-      _______, KC_VOLD, KC_VOLU, KC_MUTE, _______, _______, KC_INS,  KC_END,  KC_PGDN, KC_DOWN, KC_QUOT,          _______, \
+      _______, KC_VOLD, KC_VOLU, KC_MUTE, KC_DOT,  _______, KC_INS,  KC_END,  KC_PGDN, KC_DOWN, KC_QUOT,          _______, \
       _______, XXXXXXX, _______,          KC_SPC,           _______,                   KC_DEL,  BL_TOGG, BL_STEP, _______  \
     ),
 
